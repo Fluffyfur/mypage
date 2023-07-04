@@ -75,12 +75,13 @@
         .mybtn > button {
             margin-right: 10px;
         }
+
     </style>
 </head>
 
 <body>
     <div class="mytitle">
-        <h1>개 망작 영화</h1>
+        <h1>망한 영화</h1>
         <button>박제하기</button>
     </div>
     <div class="postingbox">
@@ -88,6 +89,15 @@
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화 url</label>
         </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>-- 재미없는만큼 별점주기 --</option>
+              <option value="1">⭐</option>
+              <option value="2">⭐⭐</option>
+              <option value="3">⭐⭐⭐</option>
+            </select>
+          </div>
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">코멘트</label>
